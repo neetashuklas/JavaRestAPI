@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5547" started-at="2020-10-16T20:22:01 EDT" finished-at="2020-10-16T20:22:07 EDT">
+    <groups>
+    </groups>
+    <test name="Create Customer Test" duration-ms="5547" started-at="2020-10-16T20:22:01 EDT" finished-at="2020-10-16T20:22:07 EDT">
+      <class name="com.w2a.APITestingFrameworkTestCases.CreateCustomerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="setup" is-config="true" duration-ms="398" started-at="2020-10-16T20:22:01 EDT" finished-at="2020-10-16T20:22:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InvalidateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="InvalidateCreateCustomerAPIWithValidSecretKey" duration-ms="1730" started-at="2020-10-16T20:22:01 EDT" data-provider="data" finished-at="2020-10-16T20:22:03 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=t@gmail.com, name=toma, description=no comment}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="400" started-at="2020-10-16T20:22:03 EDT" data-provider="data" finished-at="2020-10-16T20:22:03 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=a@gmail.com, name=alak, description=This is the first test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="301" started-at="2020-10-16T20:22:03 EDT" data-provider="data" finished-at="2020-10-16T20:22:04 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=t@gmail.com, name=toma, description=This is the second test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="317" started-at="2020-10-16T20:22:04 EDT" data-provider="data" finished-at="2020-10-16T20:22:04 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=r@gmail.com, name=rakesh, description=This is the third test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="470" started-at="2020-10-16T20:22:04 EDT" data-provider="data" finished-at="2020-10-16T20:22:04 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=a@gmail.com, name=alak, description=This is the first test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="373" started-at="2020-10-16T20:22:04 EDT" data-provider="data" finished-at="2020-10-16T20:22:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=t@gmail.com, name=toma, description=This is the second test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="330" started-at="2020-10-16T20:22:05 EDT" data-provider="data" finished-at="2020-10-16T20:22:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=r@gmail.com, name=rakesh, description=This is the third test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="347" started-at="2020-10-16T20:22:05 EDT" data-provider="data" finished-at="2020-10-16T20:22:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=a@gmail.com, name=alak, description=This is the first test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="333" started-at="2020-10-16T20:22:06 EDT" data-provider="data" finished-at="2020-10-16T20:22:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=t@gmail.com, name=toma, description=This is the second test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="341" started-at="2020-10-16T20:22:06 EDT" data-provider="data" finished-at="2020-10-16T20:22:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=r@gmail.com, name=rakesh, description=This is the third test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="380" started-at="2020-10-16T20:22:06 EDT" data-provider="data" finished-at="2020-10-16T20:22:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=a@gmail.com, name=alak, description=This is the first test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.APITestingFrameworkTestCases.CreateCustomerTest@55b53d44]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-16T20:22:07 EDT" finished-at="2020-10-16T20:22:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.APITestingFrameworkTestCases.CreateCustomerTest -->
+    </test> <!-- Create Customer Test -->
+  </suite> <!-- Suite -->
+</testng-results>
